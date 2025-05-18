@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8">
+  <title>ອາຫານ ອ້າຍວັນໄຊ</title>
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="D:\bootstrap\bootstrap5\icon\font\bootstrap-icons.min.css">
+</head>
+
+
+<style>
+  .but {
+    padding: 12px 24px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .but:hover {
+    background-color: #cc0000;
+  }
+  body{margin-left: }
+</style>
+
+
+
+<style>
+  body {
+    font-family: sans-serif;
+  }
+
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu-button {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  nav{border: 5px inset rgb(98, 105, 212);
+                              background-image:url(ພື້ນລັງອາຫາ) ;
+                              background-size: cover;
+                              animation: o 0.7s infinite; }
+                            @keyframes o{
+                              25%{
+                                  color: red;          
+                                  box-shadow: 0-10px 20px black;  
+                                  
+                              }
+                              50%{ 
+                                  color: aliceblue;  
+                                  box-shadow: 10px 0 20px green;
+                              }
+                              75%{
+                                  color:blue;           
+                                  box-shadow: 0 10px 20px yellow;
+                              }
+                              100%{
+                                  color: aliceblue;
+                                  box-shadow: -10px 0 20px ;
+                              }
+                            }    
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   
+    color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .dropdown a:hover {
+    background-color: #cc0000;
+  }
+
+  .menu:hover .dropdown {
+    display: block;
+  }
+  .w{
+    margin-right: 5%
+  }
+  .p{
+                                  
+                                  border-radius: 50%;
+                                  object-fit: cover;
+                             
+                                     transform: rotate(150deg);
+                                   animation: p 8s linear infinite;
+                                   margin-left: 2%; 
+                                       filter: drop-shadow(1px 1px 20px red);
+                                       
+                                              
+    }
+    @keyframes p{
+                                                          from{ transform: rotate(0deg);}
+                                                          to { transform: rotate(360deg);}
+                            
+                            }
+                            h7{
+                                                          font-size: 60px;
+                                                          font-weight:bold;
+                                                  
+                                                         
+                                                          -webkit-text-stroke: 5px white;
+                                                          margin-left: 50%;
+                                                  animation: d 2s infinite;
+                            }
+                     @keyframes d{
+                    0% { filter: drop-shadow(1px 1px 20px red);}  
+                       30% { filter: drop-shadow(1px 1px 20px yellow);}
+                       50% { filter: drop-shadow(1px 1px 20px red);}     
+                         90% { filter: drop-shadow(1px 1px 20px blue);}      
+                     }
+                     .r{
+                                  
+                                  border-radius: 50%;
+                        
+                                  filter: drop-shadow(1px 1px 20px yellow);
+                                }
+                                .r:active{
+                                       animation: an 1.5s infinite ;
+                                }
+                                    @keyframes an{
+                                  0%{transform:rotateY(0);}
+                                  100%{transform:rotateY(180deg);}
+                                }
+                                a{
+                              font-weight: bolder;
+                              font-size: 20px;
+                              color: black
+                              
+                            }
+                        
+                              
+                              body{
+                                                            animation: b 10s linear infinite;
+                                                          }
+                                                          @keyframes b{
+                                                            0%{background-image: url(ພື້ນລັງອາຫານ2.jpg);}
+                                                            30%{background-image: url(ພື້ນລັງອາຫານ3.jpg);}
+                                                           60%{background-image: url(ພື້ນລັງອາຫານ.jpg);}
+                                                            80%{background-image: url(ພື້ນລັງອາຫານ5.jpg);}
+                                                            100%{background-image: url(ພື້ນລັງຂອງວານ.jpg);}
+                                                          }
+                              h1{
+                                                            font-size: 15px
+                              }
+                              a{
+                                font-weight: bolder;
+                                text-decoration: none;
+                              }
+                            
+ 
+</style>
+<body  style="
+
+
+
+font-family: phetsarath ot;" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="index.html"><i class="bi bi-house "></i>  ຮ້ານອາຫານວັນໄຊ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"><i class="bi bi-house-fill"></i>  ໜ້າຫຼັກ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ລິງໃສເມນູຍອດນິຍົມ.html"><i class="bi bi-database-fill-down"></i> ເມນູຍອດນິຍົມ</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="ລິງໃສເຄືອງດືມ.html"><i class="bi bi-database-fill-down"></i> ເມນູເຄືອງດືມ</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="ລິງໃສຂອງວານ.html"><i class="bi bi-database-fill-down"></i> ເມນູຂອງຫວານ</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="ລິງໃສອາຫານ.html"><i class="bi bi-database-fill-down"></i> ເມນູອາຫານ</a>
+          </li>
+        
+         
+          <li class="nav-item">
+            <a class="nav-link " href="ລິງໃສພໍ່ຄົວຮ້ານ.html"><i class="bi bi-house"style="color:white;"></i> ພໍ່ຄົວຮ້ານເຮົາ ເເລະ ທີມງານ</h1></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <center><h1 Class="text-dark"style="font-size: 50px;"><h1 style="color: white;font-size: 50px;">ປະເພດອາຫານຂອງຮ້ານເຮົາ</h1></h1></center> 
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-3">
+                 <div class="card" >
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ຕຳໝາກຮຸ່ງ</h1></center>   </div>
+               <div class="card-body"><center> <img src="ຕຳໝາກຮູງ.jpg" height="120px" width="120px"></div></center> 
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:35,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດຕຳໝາກຮູງ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     
+      <div class="col-sm-3">
+          <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ເຝີ</h1></center>   </div>
+               <div class="card-body"><center> <img src="เผี.jfif" height="120px" width="120px"></center> </div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:45,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດເຝີ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     
+     
+      <div class="col-sm-3">
+  <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ກະເຜົາໝູກອບໄຂ່ດາວ</h1></center>   </div>
+               <div class="card-body"> <center> <img src="ໄຂດາວ.jfif" height="120px" width="120px"></center></div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:45,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດຜັດກະເຜົາ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     <div class="col-sm-3">
+ <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ປີ້ງໄກ່</h1></center>   </div>
+               <div class="card-body"><center>  <img src="ไก่.jfif" height="120px" width="120px"></center></div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:65,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດປີ້ງໄກ່.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+    
+    </div><br><hr><br>
+    <div class="row">
+      <div class="col-sm-3">
+                 <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ຕຳເຂົ້າປຸ່ນ</h1></center>   </div>
+               <div class="card-body"><center> <img src="ຕຳເຂົ້າປຸນ.jfif" height="120px" width="120px"></div></center> 
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:35,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດຕຳເຂົ້າປຸ່ນ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     
+      <div class="col-sm-3">
+          <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ຫລາບໝູ</h1></center>   </div>
+               <div class="card-body"><center> <img src="ລາບໝູ.jfif" height="120px" width="120px"></center> </div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:55,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດລາບໝູ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     
+     
+      <div class="col-sm-3">
+  <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ຕົ້ມໄກ່ນໍ້າກະທິ</h1></center>   </div>
+               <div class="card-body"> <center> <img src="ຕົ້ມໄກ່ນໍ້າກະທິ.jfif"height="120px" width="120px"></center></div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:55,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດຕົ້ມໄກ່ນໍ້າກະທິ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+     <div class="col-sm-3">
+ <div class="card">
+              <div class="card-header " style="background-color: yellow;color: black;"><center><h1>ໝູຫວານ</h1></center>   </div>
+               <div class="card-body"><center>  <img src="ໝູຫວານ.jfif" height="120px" width="120px"></center></div>
+                
+                 <div class="card-footer  " style="background-color: yellow;color: black;"><center>  <p>ລາຄາ:35,000 ກີບ</p>
+                  <button ><a href="ລິງໃສລາຍລະອຽດໝູຫວານ.html" class="a">ລາຍລະອຽດ</a></button></center>   </div>
+               
+                 <button style="background-color: greenyellow;"><a href="ລິ້ງໃສຊືສິ້ນຄ້າ.html" class="a" >💲ສັງຊື້</a></button></div></div>
+    
+    </div>
+  </div>   
+  <button><a href="index.html">↩ກັບຄືນ</a></button> 
+</font>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
+
+
+
+
+</body>
+</html>
